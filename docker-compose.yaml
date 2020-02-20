@@ -2,7 +2,7 @@ version: "3.3"
 services:
   deploy-proj-9:
     build:
-      context: "https://github.com/berrybloxinator/deployment-project-9/Dockerfile"
+      context: "https://github.com/berrybloxinator/deployment-project-9/blob/master/Dockerfile"
     container_name: "deploy-contain-9"
     ports:
       - "3000:3000"
