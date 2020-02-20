@@ -5,6 +5,6 @@ services:
       - "3000:3000"
     container_name: "deployment-container-9"
     environment:
-      - FIRST= "Brady"
-      - LAST= "Liechty"
+      - FIRST=Brady
+      - LAST=Liechty
     image: "deployment-project-9:latest"
