@@ -1,0 +1,10 @@
+version: "3.3"
+services:
+  deployment-project-9:
+    container_name: deployment-container
+    ports:
+      - "3000:3000"
+    environment:
+      - FIRST= "Brady"
+      - LAST= "Liechty"
+    image: "deployment-project-9:latest"
