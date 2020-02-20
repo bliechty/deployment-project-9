@@ -1,7 +1,8 @@
 version: "3.3"
 services:
   deploy-proj-9:
-    build: "https://github.com/berrybloxinator/deployment-project-9"
+    build:
+      context: "https://github.com/berrybloxinator/deployment-project-9"
     container_name: "deploy-contain-9"
     ports:
       - "3000:3000"
