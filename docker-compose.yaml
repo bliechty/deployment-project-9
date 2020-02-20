@@ -1,10 +1,11 @@
 version: "3.3"
 services:
-  deployment-project-9:
-    container_name: "deployment-container"
+  deploy-proj-9:
+    build: "https://github.com/berrybloxinator/deployment-project-9"
+    container_name: "deploy-contain-9"
     ports:
       - "3000:3000"
     environment:
       - FIRST= "Brady"
       - LAST= "Liechty"
-    image: "deployment-project-9:latest"
+    image: "deploy-proj-9:latest"
