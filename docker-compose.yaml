@@ -1,6 +1,7 @@
 version: "3.3"
 services:
   deployment-project-9:
+    build: https://github.com/johnpapa/node-hello
     container_name: deployment-container
     ports:
       - "3000:3000"
